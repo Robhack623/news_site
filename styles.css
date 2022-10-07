@@ -1,0 +1,41 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+}
+
+.title {
+    display: flex;
+    font-family:cursive;
+    font-size: 40px;
+}
+li {
+    display: flex;
+    align-items: flex-start;
+    border-bottom:4px double black;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+img {
+    width: 300px;
+    max-height: 300px;
+}
+li .newsTitle {
+    max-width: 350px;
+}
+
+li .despcription {
+    width: 20%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
